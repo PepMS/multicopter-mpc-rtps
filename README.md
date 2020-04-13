@@ -30,7 +30,7 @@ and in the NuttX console start the microRTPS client with a UDP connection:
 micrortps_client start -t UDP
 ```
 
-### Client: Agent side
+### Agent:
 The Agent is responsible to send the topics published by the Client to the corresponding applications (e.g. send the EKF2 output to our MPC controller). 
 Also, it takes the data from the applications and sends back the data to the Client (e.g. control input from our MPC controllers to write the motor commands in the PX4).
 
