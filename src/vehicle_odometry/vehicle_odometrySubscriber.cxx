@@ -26,7 +26,7 @@
 
 #include <fastrtps/Domain.h>
 
-#include "vehicle_odometrySubscriber.h"
+#include "multicopter_mpc_rtps/vehicle_odometry/vehicle_odometrySubscriber.h"
 
 using namespace eprosima::fastrtps;
 using namespace eprosima::fastrtps::rtps;

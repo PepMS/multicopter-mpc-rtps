@@ -23,7 +23,7 @@
 #include <fastcdr/FastBuffer.h>
 #include <fastcdr/Cdr.h>
 
-#include "vehicle_odometryPubSubTypes.h"
+#include "multicopter_mpc_rtps/vehicle_odometry/vehicle_odometryPubSubTypes.h"
 
 using namespace eprosima::fastrtps;
 using namespace eprosima::fastrtps::rtps;

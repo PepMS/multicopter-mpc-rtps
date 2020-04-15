@@ -24,7 +24,7 @@
 namespace { char dummy; }
 #endif
 
-#include "vehicle_odometry.h"
+#include "multicopter_mpc_rtps/vehicle_odometry/vehicle_odometry.h"
 #include <fastcdr/Cdr.h>
 
 #include <fastcdr/exceptions/BadParamException.h>
